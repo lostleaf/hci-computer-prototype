@@ -1,0 +1,31 @@
+div.mainpage-frame {
+    border: solid black 1px;
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div#mainpage-map {
+    margin-left: 20px;
+    background-image: url("mainpage-map.png");
+    background-size: 100% 100%;
+}
+
+#footer {
+    margin-top: 20px;
+    background: black;
+
+}
+
+#footer a{
+    color: white;
+}
+
+form#mainpage-search {
+    margin-right: 20px;
+}
+
+nav a.navbar-brand {
+    font-weight: bold;
+    color: dimgray !important;
+}
