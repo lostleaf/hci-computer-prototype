@@ -6,6 +6,10 @@
   border-top: 1px solid #e5e5e5;
 }
 
+#nav-mainpage {
+    margin-bottom: 0;
+}
+
 span.banner-green {
     color: green;
 }
@@ -68,8 +72,4 @@ div.willis_right{
 #willis_right_last{
     border: solid black 1px;
     padding-bottom: 11px;
-}
-
-nav.navbar {
-    margin-bottom: 0;
 }

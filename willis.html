@@ -29,40 +29,30 @@
 
 <body>
 
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
-                <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>-->
-                <a class="navbar-brand" href="index.html">SafeTrip Chicago</a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><span class="banner-green">Safe</span>Trip Chicago</a>
             </div>
-            <div class="pull-right row">
-                <div class="col-md-6">
-                    <a href="report.html" type="button" class="btn btn-default navbar-btn" >Report Crime</a>
-                </div>
-                <div class="col-md-2">
-                    <a href="login.html" type="button" class="btn btn-default navbar-btn" >Log In</a>
-                </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav nav-pills navbar-right">
+                    <li>
+                        <p class="navbar-btn">
+                            <a href="report.html" class="btn btn-default">Report Crime</a>
+                        </p>
+                    </li>
+                    <li><a href="login.html">Log In</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container">
-        <form id="mainpage-search" class="form-inline pull-right">
-            <label><h4>Where would you like to go?</h4></label>
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search..">
-                <span class="input-group-btn">
-                    <button class="btn btn-defalut" type="button">Go!</button>
-                </span>
-            </div>
-        </form>
-    </div>
 
    <div class="container">
     <div class="row">
@@ -108,30 +98,27 @@
         </div>
 
    </div>
-
-
-
-
-
-
     
-    <div id="footer" class="bs-docs-footer">
-    <div class="container">
-        <ul class="bs-docs-footer-links row">
-            <li class="col-md-3">
-                <a href="#">Emergency Contact</a>
-            </li>            
-            <li class="col-md-3">
-                <a href="#">Emergency Contact</a>
-            </li>            
-            <li class="col-md-3">
-                <a href="#">Emergency Contact</a>
-            </li>            
-            <li class="col-md-3">
-                <a href="#">Emergency Contact</a>
-            </li>           
-        </ul>
-        Woofcat!
-    </div>        
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <p class="col-xs-4">&copy; 2016 Team Woofcat!</p>
+                <ul class="text-right">
+                <li class="col-xs-2">
+                    <a href="#">Emergency Contact</a>
+                </li>
+                <li class="col-xs-2">
+                    <a href="#">Resource</a>
+                </li>
+                <li class="col-xs-2">
+                    <a href="#">Support</a>
+                </li>
+                <li class="col-xs-2">
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </footer>      
 
 </body>
