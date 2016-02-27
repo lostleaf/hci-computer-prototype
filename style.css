@@ -23,3 +23,49 @@ div#mainpage-search {
 div.mainpage-list a:hover{
     color: rgb(35, 82, 200);
 }
+
+#signin{
+    width:400px;
+    margin-top: 50px;
+}
+
+/*signup page*/
+.form .form-control { margin-bottom: 10px; }
+
+/*signsucess page*/
+#welcome{
+    margin-top: 200px;
+}
+
+/*report page*/
+#report_description{
+    width: 500px !important;
+    height: 500px;
+}
+
+/*willis page*/
+#willis_image{
+    height: 180px;
+    width: 100%;
+}
+
+div.willis-frame {
+    border: solid black 1px;
+    height: 450px;
+    padding: 0 0 0 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#willis_left{
+    margin-left: 10px;
+}
+
+div.willis_right{
+    border: solid black 1px;
+    padding-bottom: 12px;
+}
+
+#willis_right_last{
+    border: solid black 1px;
+    padding-bottom: 11px;
+}

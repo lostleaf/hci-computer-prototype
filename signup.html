@@ -1,0 +1,145 @@
+<!-- HEAD SECTION -->
+
+<!-- IE Edge Meta Tag -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional Theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="style.css">
+<!-- Optional IE8 Support -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+  <!-- FOOTER SECTION - Before closing </body> tag -->
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <body>
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>-->
+                <a class="navbar-brand" href="index.html">SafeTrip Chicago</a>
+            </div>
+            <div class="pull-right row">
+                <div class="col-md-6">
+                    <a href="report.html" type="button" class="btn btn-default navbar-btn" >Report Crime</a>                </div>
+                    <div class="col-md-2">
+                        <a type="button" class="btn btn-default navbar-btn" >Log In</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="container">
+            <div class="row">
+                <h3 class="col-sm-offset-3 col-sm-6">Signup</h3>
+            </div>
+            <div class="row">
+
+                <div class="col-sm-6 col-sm-offset-3">
+                    <form action="r" method="post" accept-charset="utf-8" class="form" role="form">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-6">
+                                <input type="text" name="firstname" value="" class="form-control input-lg" placeholder="First Name"  />                        </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <input type="text" name="lastname" value="" class="form-control input-lg" placeholder="Last Name"  />                        </div>
+                                </div>
+                                <input type="text" name="email" value="" class="form-control input-lg" placeholder="Your Email"  /><input type="password" name="password" value="" class="form-control input-lg" placeholder="Password"  /><input type="password" name="confirm_password" value="" class="form-control input-lg" placeholder="Confirm Password"  />
+                                <label>Birth Date</label>
+                                <div class="row">
+                                    <div class="col-xs-4 col-md-4">
+                                        <select name="month" class = "form-control input-lg">
+                                            <option value="01">Jan</option><option value="02">Feb</option><option value="03">Mar</option>
+                                            <option value="04">Apr</option><option value="05">May</option><option value="06">Jun</option>
+                                            <option value="07">Jul</option><option value="08">Aug</option><option value="09">Sep</option>
+                                            <option value="10">Oct</option><option value="11">Nov</option><option value="12">Dec</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-4 col-md-4">
+                                        <select name="day" class = "form-control input-lg">
+                                            <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option>
+                                            <option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option>
+                                            <option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option>
+                                            <option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option>
+                                            <option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="21">21</option>
+                                            <option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option>
+                                            <option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option>
+                                            <option value="30">30</option><option value="31">31</option>
+                                        </select>                        
+                                    </div>
+                                    <div class="col-xs-4 col-md-4">
+                                        <select name="year" class = "form-control input-lg">
+                                            <option value="2001">2001</option><option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option>
+                                            <option value="2005">2005</option><option value="2006">2006</option><option value="2007">2007</option><option value="2008">2008</option>
+                                            <option value="2009">2009</option><option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option>
+                                            <option value="2013">2013</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <label>Gender : </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="gender" value="M" id=male />Male
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="gender" value="F" id=female />Female
+                                </label>
+                                <br />
+
+                                <label>Do you want to receive real-time crime notification? : </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="Notify" value="M" id=receive />Yes
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="Notify" value="F" id=noreceive />No
+                                </label>
+                                <br />
+
+                                <span class="help-block">By clicking Create my account, you agree to our<a href="terms.html"> Terms and Policy</a> and that you have read our Data Use Policy, including our Cookie Use.</span>
+                                <a href="signsuccess.html"><input class="btn btn-lg btn-primary btn-block signup-btn" type="button" value="Create my account"></a>
+                            </form>          
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer" class="bs-docs-footer">
+    <div class="container">
+        <ul class="bs-docs-footer-links row">
+            <li class="col-md-3">
+                <a href="#">Emergency Contact</a>
+            </li>            
+            <li class="col-md-3">
+                <a href="#">Emergency Contact</a>
+            </li>            
+            <li class="col-md-3">
+                <a href="#">Emergency Contact</a>
+            </li>            
+            <li class="col-md-3">
+                <a href="#">Emergency Contact</a>
+            </li>           
+        </ul>
+        Woofcat!
+    </div>    
+
+        </body>
