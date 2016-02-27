@@ -69,3 +69,7 @@ div.willis_right{
     border: solid black 1px;
     padding-bottom: 11px;
 }
+
+nav.navbar {
+    margin-bottom: 0;
+}
