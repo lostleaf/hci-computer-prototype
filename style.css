@@ -73,3 +73,9 @@ div.willis_right{
     border: solid black 1px;
     padding-bottom: 11px;
 }
+
+#triptip ul{
+    overflow: scroll;
+    height: 350px;
+}
+
