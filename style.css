@@ -1,6 +1,38 @@
+.stylish-panel {
+    
+    text-align: center;
+}
+.stylish-panel > div > div{
+    padding: 10px;
+    padding-top: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+.stylish-panel > div:hover > div{
+    margin-top: -10px;
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    background: rgba(200, 200, 200, 0.1);
+    transition: 0.5s;
+}
+
+.stylish-panel > div:hover img {
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#mainlow{
+
+width: 100%;
+padding-bottom: 30px;
+}
 .footer {
-  margin-top: 20px;
-  padding-top: 10px;
+  
   padding-bottom: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
@@ -10,6 +42,9 @@
     margin-bottom: 0;
 }
 
+ul.showpage-info-group {
+margin-top: 0;
+}
 span.banner-green {
     color: green;
 }
@@ -19,13 +54,25 @@ div.map-container {
 }
 
 div#mainpage-search {
-    background-image: url("skyline.jpg");  
-    background-position:center;
+    background-image: url("bk3.jpg");  
+    height: 800px;
     padding-top: 100px;
+    margin-bottom: 0px;
+
 }
 
 div.mainpage-list a:hover{
     color: rgb(35, 82, 200);
+}
+
+div.listitem{
+    padding-top: 20px;
+}
+
+a.list-group-item{
+    opacity: 0.5;
+    color:darkblue  ;
+
 }
 
 #signin{
@@ -47,6 +94,10 @@ div.mainpage-list a:hover{
     height: 500px;
 }
 
+#report_description h3  h4 p{
+    color:darkgreen;
+}
+
 /*willis page*/
 img.showpage-image{
     height: 300px;
@@ -56,7 +107,7 @@ img.showpage-image{
 }
 
 ul.showpage-info-group {
-    margin-top: 96px;
+    margin-top: 0px;
 }
 
 div.willis_right{
@@ -83,4 +134,60 @@ div.willis_right{
 
 .show-page-otherinfo p{
     margin-top: 10px;
+}
+
+#signinpage {
+    background-image: url("signb.jpeg");  
+    height: 600px;
+    padding-top: 100px;
+    margin-bottom: 0px;
+
+}
+
+#signuppage {
+    background-image: url("signup1.jpg");  
+    background-size: 900px;
+    height: 600px;
+
+    margin-bottom: 0px;
+
+}
+#signs {
+    background-image: url("bk2.jpg");  
+    height: 600px;
+
+    margin-bottom: 0px;
+
+}
+#reports {
+    background-image: url("bk2.jpg");  
+    height: 600px;
+
+    margin-bottom: 0px;
+
+}
+
+#reportcrime{
+    background-image: url("rp1.png");  
+    height: 900px;
+    margin-bottom: 0px;
+}
+
+#willist{
+    background-image: url("willisp1.jpg");  
+    height: 750px;
+    background-size: 800;   
+    margin-bottom: 0px;
+}
+#willistip{
+    background-image: url("willistip.png");  
+    height: 750px;
+    
+    margin-bottom: 0px;
+}
+#chinatownw{
+    background-image: url("chinat.jpg");  
+    height: 750px;
+    
+    margin-bottom: 0px;
 }

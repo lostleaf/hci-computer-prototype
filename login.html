@@ -54,25 +54,26 @@
     </nav>
 
 
-
+<div id="signinpage" class="jumbotron text-center">
     <container class="row" id="signin">
-        <form id="signin" class="form-signin col-md-6 col-md-offset-4">
-            <h2 class="form-signin-heading">Please sign in</h2>
+        <form id="signin" class="form-signin col-md-6 col-md-offset-4" action="signsuccess.html">
+            <h2 class="form-signin-heading" style="color:darkgray">Please sign in</h2>
             <br>
             <label for="inputEmail" class="sr-only">Email address</label>
             <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
             <br>
             <label for="inputPassword" class="sr-only">Password</label>
-            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="" >
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" value="remember-me"> Remember me
+                    <input type="checkbox" value="remember-me" style="color:darkgray"> Remember me
                 </label>
-                <a href="signup.html" class="pull-right">No Account? SignUp</a>
+                <a href="signup.html" class="pull-right" style="color:darkgray">No Account? SignUp</a>
             </div>
             <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
         </form>
     </container>
+</div>
     <footer class="footer">
         <div class="container">
             <div class="row">
