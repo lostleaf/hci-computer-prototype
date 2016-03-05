@@ -55,7 +55,7 @@ div.map-container {
 
 div#mainpage-search {
     background-image: url("bk3.jpg");  
-    height: 800px;
+    height: 820px;
     padding-top: 100px;
     margin-bottom: 0px;
 
@@ -70,7 +70,7 @@ div.listitem{
 }
 
 a.list-group-item{
-    opacity: 0.5;
+    opacity: 0.75;
     color:darkblue  ;
 
 }
@@ -190,4 +190,7 @@ div.willis_right{
     height: 750px;
     
     margin-bottom: 0px;
+}
+#indeximg{
+    height: 200px;
 }
